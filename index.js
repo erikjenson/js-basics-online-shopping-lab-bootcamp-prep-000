@@ -60,7 +60,7 @@ for (var i=0; i <x.length; i++){
 
 function placeOrder(cardNumber) {
  if (cardNumber === undefined){
-   return console.log('Sorry, we don\'t have a credit card on file for you.');
+   return `Sorry, we don\'t have a credit card on file for you.`;
  } else {
    var x = total();
    cart = [];
